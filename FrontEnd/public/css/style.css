@@ -1,0 +1,91 @@
+body *{
+  display: block;
+  padding:0;
+  margin:0;
+}
+.hashMainContainer{
+  width:100%;
+  text-align:center;
+}
+.hashMainWrapper{
+  width:100%;
+  margin:0 auto;
+  height:100%;
+}
+.hashLoginContainer{
+  width:100%;
+  text-align:center;
+  background-image:url('../images/loginbg.jpg');
+  background-position:center;
+  min-height:600px !important;
+}
+.hashLoginoverlayContainer{
+  padding:60px 30px;
+  background-color:rgba(0,0,0,0.5);
+  min-height:600px !important;
+}
+.hashBrandlogo{
+  text-align:center;
+  width:70%;
+  margin:0 auto;
+}
+.hashwelcomenote{
+  color:white;
+  font-size:40px;
+  font-weight:bold;
+  text-transform:uppercase;
+  border-bottom:1px solid white;
+}
+.hashwelcometag{
+  color:white;
+  font-size:12px;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+.hashBrandlogo img{
+    width:128px;
+    height:auto;
+    margin:30px auto;
+    background-color:rgba(255, 255, 255,0.5);
+    padding:10px;
+    border-radius:100px;
+}
+.hashLoginwrapper{
+  width:80%;
+  margin:0 auto;
+  text-align:center;
+}
+.hashFormbox{
+  margin:0 auto;
+  width:400px;
+  height:auto;
+  border:1px solid white;
+  background-color:rgba(0,0,0,0.6);
+  padding: 40px 20px 20px 20px;
+  border-radius:6px;
+}
+.hashloginbutton{
+  margin:0 auto;
+  background-color:#8870FF;
+  border:none;
+  padding:5px 30px;
+  color:white;
+  border-radius:6px;
+}
+.hashFormbox .form-control{
+  background-color:white !important;
+  color:gray !important;
+  border:1px solid black;
+}
+.hashregisterlink{
+  margin-top:20px;
+  color:white;
+  text-decoration:underline;
+}
+.hasherrormsg{
+  color:red;
+  font-size:12px;
+  text-align:left;
+  position:relative;
+  top:-10px;
+}
