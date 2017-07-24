@@ -24,7 +24,7 @@ public class DatabaseConfig
 	private final static String JDBC_DRIVER_CLASS = "org.h2.Driver";
 	private final static String USER_NAME = "sa";
 	private final static String USER_PASSWORD = "";
-
+ 
 	@Bean
 	public DataSource getDataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
